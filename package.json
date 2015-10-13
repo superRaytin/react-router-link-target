@@ -1,24 +1,21 @@
 {
-  "name": "react-router",
-  "version": "0.13.4",
-  "description": "A complete routing library for React.js",
+  "name": "react-router-link-target",
+  "version": "0.13.42",
+  "description": "An updated version of the Link component for react-router",
   "main": "modules",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rackt/react-router.git"
+    "url": "https://github.com/superRaytin/react-router-link-target.git"
   },
-  "homepage": "https://github.com/rackt/react-router/blob/latest/README.md",
-  "bugs": "https://github.com/rackt/react-router/issues",
+  "homepage": "https://github.com/superRaytin/react-router-link-target/blob/latest/README.md",
+  "bugs": "https://github.com/superRaytin/react-router-link-target/issues",
   "scripts": {
     "build": "scripts/build.sh",
     "examples": "webpack-dev-server --config examples/webpack.config.js --content-base examples",
     "test": "jsxhint modules && karma start",
     "build-website": "babel-node website/scripts/build.js > website/index.html"
   },
-  "authors": [
-    "Ryan Florence",
-    "Michael Jackson"
-  ],
+  "authors": "Leon shi",
   "license": "MIT",
   "devDependencies": {
     "babel": "^5.0.12",
@@ -58,6 +55,7 @@
   "keywords": [
     "react",
     "react-component",
+    "react-link",
     "routing",
     "route",
     "routes",

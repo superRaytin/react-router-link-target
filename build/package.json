@@ -1,7 +1,7 @@
 {
-  "name": "react-router",
-  "version": "0.13.4",
-  "description": "A complete routing library for React.js",
+  "name": "react-router-link-target",
+  "version": "0.13.41",
+  "description": "An updated version of the Link component for react-router",
   "main": "lib",
   "repository": {
     "type": "git",

@@ -1505,6 +1505,13 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	      if (clickResult === false || event.defaultPrevented === true) allowTransition = false;
 
+	      // If target prop is set (e.g. to "_blank") let browser handle link.
+	      if (this.props.target) {
+	        if (!allowTransition) event.preventDefault();
+
+	        return;
+	      }
+
 	      event.preventDefault();
 
 	      if (allowTransition) this.context.router.transitionTo(this.props.to, this.props.params, this.props.query);
