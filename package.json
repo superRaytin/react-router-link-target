@@ -1,6 +1,6 @@
 {
   "name": "react-router-link-target",
-  "version": "0.13.42",
+  "version": "0.13.43",
   "description": "An updated version of the Link component for react-router",
   "main": "modules",
   "repository": {
